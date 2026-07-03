@@ -40,14 +40,14 @@ a{
 }
 
 a:hover{
-    border: solid 2px rgb(251,255,0);
+    border: solid 2px rgb(107, 109, 0);
     border-radius: 10%;
     transform: scale(1.2);
 }
 
 a:active{
     background-color: rgb(134,118,27);
-    border: solid 2px rgb(251,255,0);
+    border: solid 2px rgb(137, 139, 1);
     border-radius: 10%;
 }
 .bemvindo{
@@ -82,7 +82,20 @@ a:active{
     line-height: 1.5;
     padding-top: 2%;
 }
-
+.pers2{
+    width: 30%;
+    min-width: 280px;
+    padding: 1%;
+    border: solid 2px rgba(0,0,0,0);
+    background-color: rgba(242,144,8,0);
+}
+.pers2 p{
+    color: white;
+    text-align: justify;
+    font-size: clamp(20px, 2vw, 25px);
+    line-height: 1.5;
+    padding-top: 2%;
+}
 .img-padrao{
     width: 100%;
     height: auto;
@@ -198,4 +211,35 @@ footer{
     width: 100px;
     box-shadow: inset  1px;
     
+}
+.serv{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    letter-spacing: 0.1px;
+    background-color: rgba(0, 0, 0, 0.503);
+}
+.servico{
+    width: 50%;
+    min-width: 280px;
+    padding: 1%;
+    border: solid 2px rgba(0,0,0,0);
+    background-color: rgba(242,144,8,0);
+}
+.servico p{
+    color: white;
+    text-align: justify;
+    font-size: clamp(5px, 2vw, 25px);
+    line-height: 1.5;
+    padding-top: 1%;
+}
+.servico h2{
+    color: white;
+    text-align: center;
+    font-size: clamp(10px, 2vw, 30px);
+    line-height: 1.5;
+    padding-top: 1%;
 }
